@@ -1,0 +1,45 @@
+<header>
+    <a class="site-title">Fruteria y Verduleria</a>
+    <a href="/cart" class="cart-icon">
+        <span class="iconify" data-icon="mdi:cart" data-inline="false"></span>
+        <span id="cart-count" class="cart-count">0</span>
+    </a>
+</header>
+
+<main>
+    <section>
+        <div class="products">
+            <div class="products__controls">
+                <select id="sort-select">
+                    <option value="">Ordenar por A-Z</option>
+                    <option value="asc">Ascendente</option>
+                    <option value="desc">Descendente</option>
+                </select>
+                <select id="category-select">
+                    <option value="">Categorias</option>
+                    <!-- Las categorías se cargarán dinámicamente aquí -->
+                </select>
+                <select id="status-select">
+                    <option value="">Todos los productos</option>
+                    <option value="true">Activos</option>
+                    <option value="false">Inactivos</option>
+                </select>
+                <select id="price-order-select">
+                    <option value="">Ordenar por precio</option>
+                    <option value="asc">Precio ascendente</option>
+                    <option value="desc">Precio descendente</option>
+                </select>
+            </div>
+            <div class="products__grid" id="products-grid">
+            </div>
+            <div class="products__pagination">
+                <button id="btn-prev-page" disabled>Anterior</button>
+                <span id="current-page">Página 1</span>
+                <button id="btn-next-page">Siguiente</button>
+            </div>
+        </div>
+    </section>
+</main>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="/api/public/js/products.js"></script>
