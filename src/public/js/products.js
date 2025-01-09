@@ -1,6 +1,3 @@
-// Este archivo maneja la lógica del cliente para la página de productos,
-// incluyendo la carga de productos, paginación, filtrado, ordenamiento
-// y funcionalidad del carrito de compras
 
 const btnPrevPage = document.getElementById("btn-prev-page");
 const btnNextPage = document.getElementById("btn-next-page");
@@ -80,11 +77,11 @@ async function addToCart(productId) {
 
         Toastify({
             text: "Producto agregado al carrito",
-            duration: 3000,
+            duration: 3500,
             close: true,
             gravity: "bottom",
-            position: "right",
-            backgroundColor: "linear-gradient(to right, #00b09b, #96c93d)",
+            position: "left",
+            backgroundColor: "green",
             stopOnFocus: true,
         }).showToast();
 
@@ -96,8 +93,8 @@ async function addToCart(productId) {
             duration: 3000,
             close: true,
             gravity: "bottom",
-            position: "right",
-            backgroundColor: "linear-gradient(to right, #ff5f6d, #ffc371)",
+            position: "left",
+            backgroundColor: "red",
             stopOnFocus: true,
         }).showToast();
     }

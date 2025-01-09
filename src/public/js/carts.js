@@ -1,6 +1,3 @@
-// Este archivo maneja la lógica del cliente para el carrito de compras, incluyendo
-// actualización de cantidades, eliminación de productos, vaciado del carrito y
-// actualización del contador de productos en el carrito.-
 
 function updateCartCount() {
     const cartCountElement = document.getElementById('cart-count');

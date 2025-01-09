@@ -1,4 +1,3 @@
-// Este archivo define las rutas y controladores para las operaciones CRUD del Cart
 
 import { Router } from "express";
 import CartManager from "../managers/CartManager.js";

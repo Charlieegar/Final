@@ -1,4 +1,4 @@
-// Genera un nuevo ID incrementando el ID máximo actual
+
 export const generateId = (collection) => {
 
     if (!Array.isArray(collection)) {

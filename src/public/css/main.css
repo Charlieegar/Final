@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.8;
@@ -8,7 +8,7 @@ body {
     color: #2e7d32;
 }
 
-/* Estilos del encabezado */
+
 header {
     background-color: #1b5e20;
     color: #fff;
@@ -50,14 +50,13 @@ header nav ul li a:hover {
     color: #a5d6a7;
 }
 
-/* Estilos del contenido principal */
 main {
     padding: 3rem;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* Estilos de la sección de productos */
+
 .products {
     background-color: #ffffff;
     border-radius: 10px;
@@ -66,14 +65,13 @@ main {
     width: 100%;
 }
 
-/* Controles de productos (ordenar, filtrar, etc.) */
+
 .products__controls {
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
 }
 
-/* Estilos para los selectores */
 #sort-select, #category-select, #status-select, #price-order-select {
     padding: 0.7rem;
     border-radius: 5px;
@@ -82,7 +80,7 @@ main {
     font-size: 1rem;
 }
 
-/* Botón para recargar la lista de productos */
+
 #btn-refresh-products-list {
     background-color: #388e3c;
     color: white;
@@ -98,7 +96,7 @@ main {
     background-color: #2e7d32;
 }
 
-/* Cuadrícula de productos */
+
 .products__grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -106,7 +104,7 @@ main {
     margin-bottom: 2rem;
 }
 
-/* Tarjeta de producto individual */
+
 .product-card {
     background-color: #f1f8e9;
     border-radius: 10px;
@@ -161,7 +159,7 @@ main {
     font-weight: bold;
 }
 
-/* Estilos del carrito */
+
 .cart-container {
     max-width: 1000px;
     margin: 0 auto;
@@ -197,7 +195,7 @@ main {
     border-bottom: 1px solid #c8e6c9;
 }
 
-/* Botones */
+
 .btn {
     display: inline-block;
     padding: 12px 20px;
@@ -222,7 +220,7 @@ main {
     background-color: #b71c1c;
 }
 
-/* Icono del carrito */
+
 .cart-icon {
     background-color: #1b5e20;
     color: white;
@@ -243,7 +241,7 @@ main {
     font-size: 1.8rem;
 }
 
-/* Contador del carrito */
+
 .cart-count {
     position: absolute;
     top: -10px;

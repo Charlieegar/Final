@@ -1,6 +1,3 @@
-// Este archivo configura el servidor Socket.IO para la aplicación, estableciendo
-// eventos para la conexión de clientes, la inserción y eliminación de productos,
-// y la actualización en tiempo real de la lista de productos para todos los clientes conectados
 
 import { Server } from "socket.io";
 import ProductManager from "../managers/ProductManager.js";

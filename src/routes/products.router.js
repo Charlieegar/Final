@@ -1,6 +1,4 @@
 
-// Este archivo define las rutas y controladores para las operaciones CRUD de productos
-
 import { Router } from "express";
 import ProductManager from "../managers/ProductManager.js";
 
